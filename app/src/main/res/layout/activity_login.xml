@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:src="@drawable/Logo"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your email"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="@android:drawable/editbox_background"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your password"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="@android:drawable/editbox_background"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textColor="#2B4F7F"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Login"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#2B4F7F"
+        android:cornerRadius="30dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Create new Account"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#2B4F7F"
+        android:cornerRadius="30dp" />
+</LinearLayout>
